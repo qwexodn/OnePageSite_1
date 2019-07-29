@@ -1,0 +1,57 @@
+
+.haeder-main{
+    width:100%;
+    color:white;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align:center;
+    background-color:#45983D;
+
+    .haeder-container{
+        display:inline-block;
+        position: relative;
+        width:700px;
+        height:90px;
+
+        > div, > ul{
+            display: inline-block;
+            position:absolute;
+            top:50%;
+            transform:translateY(-50%);
+        }
+
+        > .logo{
+            line-height:normal;
+            left:0;
+
+            > .logo-img{
+                font-size:45px;
+                font-weight:900;
+                padding:0;
+                margin:0;
+                margin-bottom:-10px;
+            }
+            > .logo-title{
+                font-size:14px;
+                text-align:left;
+            }
+        }
+        > .menu{
+            right:0;
+            font-weight:400;
+            font-size:18px;
+            font-family: sans-serif;
+        }
+        > .menu li{
+            display:inline-block;
+            margin:0 2px;
+        }
+        > .menu li a{
+            display:inline-block;
+            padding:4px 8px;
+            color:white;
+        }
+        > .menu li a:hover{
+            color:white;
+        }
+    }
+}

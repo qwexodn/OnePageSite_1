@@ -1,0 +1,123 @@
+.back1{
+    background:url('http://wonpage.co.kr/wonpagefree/wp-content/themes/wonpagefree/images/main-bg.jpg') 0 0 no-repeat;
+}
+.back2{
+    background:url('http://wonpage.co.kr/wonpagefree/wp-content/themes/wonpagefree/images/section-bg-1.jpg') 0 0 no-repeat;
+}
+.back3{
+    background:url('http://wonpage.co.kr/wonpagefree/wp-content/themes/wonpagefree/images/section-bg-2.jpg') 0 0 no-repeat;
+}
+.back4{
+    background:url('http://wonpage.co.kr/wonpagefree/wp-content/themes/wonpagefree/images/section-bg-3.jpg') 0 0 no-repeat;
+}
+
+.height-550{
+    height:550px;
+}
+
+.height-330{
+    height:330px;
+}
+
+
+.content-title{
+    font-size:30px;
+}
+.content-body{
+    font-size: 15px;
+}
+
+
+.img-component{
+    
+    > .img-content{
+        width:100%;
+        position: relative;
+        background-size: cover;
+        background-attachment: fixed;
+
+        > div{
+            position: absolute;
+            left:50%;
+            top:40%;
+            transform:translate(-50%, -50%);
+            text-align:center;
+
+
+            > .title{
+                font-size:40px;
+                margin-bottom:30px;
+            }
+            > .sub-title{
+                font-size:25px;
+            }
+        }
+    }
+
+    > .alt{
+        padding:35px 0;
+        text-align:center;
+        font-family: 'Noto Serif KR', serif;
+
+        > ul.menu1-list{
+            display:inline-block;
+        
+            > li{
+                display:inline-block;
+                width:200px;
+                color:#666666;
+                margin:0 40px;
+        
+                > img{
+                    width:130px;
+                    height:130px;
+                }
+        
+                .list-title{
+                    font-weight:900;
+                    font-size:24px;
+                    margin:10px 0 ;
+                }
+                .list-body{
+                    font-weight:400;
+                    font-size:16px;
+                    line-height:20px;
+                }
+            }
+        }
+
+        > .menu2{
+            display:inline-block;
+            width:870px;
+
+            img{
+                margin:40px;
+                width:536px;
+                height:253px;
+            }
+
+            .title{
+                margin-top:15px;
+            }
+            .oneline{
+                font-size: 15px;
+                margin:30px;
+                display:block;
+            }
+        }
+
+        > .menu3, > .menu4{
+            
+            img{
+                margin-bottom:40px;
+            }
+            .title{
+                margin-top:15px;
+            }
+            .body{
+                margin:30px;
+            }
+        }
+    }
+}
+

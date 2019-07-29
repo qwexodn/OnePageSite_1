@@ -1,8 +1,28 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR&display=swap');
+
+//기본 스타일 모음
+@import './common.scss';
 
 // Variables
 @import 'variables';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+//reset CSS
+@import './reset.scss';
+
+//components
+
+//haeder
+@import './haeder/main';
+
+//footer
+@import './footer/mainFooter';
+
+// views
+@import './views/home.scss';

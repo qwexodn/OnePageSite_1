@@ -1,0 +1,18 @@
+.main-footer{
+    padding-top:30px;
+    height:210px;
+    background-color:#666;
+    position: relative;
+
+    > .licence{
+        position: absolute;
+        bottom:20px;
+        left:50%;
+        transform: translateX(-50%);
+        font-size:14px;
+
+        > strong{
+            color:white;
+        }
+    }
+}
